@@ -9,6 +9,12 @@ var f int = 15
 var g = 13.8
 var h string
 
+//Cap 2 - Aula 6
+var i int
+var j float64
+var k string
+var l bool
+
 func main() {
 	//Cap 2 - Aula 1 e 2
 	numerodebytes, erros := fmt.Println("Hello World!", "Oi galera", 500)
@@ -47,6 +53,15 @@ func main() {
 	g = 188.79
 	h = "Beleza?"
 	fmt.Println(f, g, h)
+
+	//Cap 2 - Aula 6
+	i = 1024
+	fmt.Printf("%v, %T\n", i, i)
+	i = 2048
+	fmt.Printf("%v, %T\n", i, i)
+	fmt.Printf("%v, %T\n", j, j)
+	fmt.Printf("%v, %T\n", k, k)
+	fmt.Printf("%v, %T\n", l, l)
 }
 
 //Cap 2 - Aula 4
