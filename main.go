@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-var b = "olá e bom dia!"
+var b = "olá e bom dia!" //Aula 3
 
 func main() {
-	//
+	//Aula 1 e 2
 	numerodebytes, erros := fmt.Println("Hello World!", "Oi galera", 500)
 	fmt.Println(numerodebytes, erros)
 
-	//
+	//Aula 3
 	x := 10
 	z := 12.4
 	y := "Olá bom dia!"
@@ -29,4 +29,14 @@ func main() {
 	fmt.Println(c + d)
 	fmt.Println(c == d)
 	fmt.Println(c < d)
+
+	//Aula 4
+	e := 99
+	qualquercoisa(e)
+}
+
+//Aula 4
+func qualquercoisa(x int) {
+	fmt.Println(b)
+	fmt.Println(x)
 }
