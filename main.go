@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 var b = "olá e bom dia!" //Cap 2 - Aula 3
 
@@ -62,6 +64,25 @@ func main() {
 	fmt.Printf("%v, %T\n", j, j)
 	fmt.Printf("%v, %T\n", k, k)
 	fmt.Printf("%v, %T\n", l, l)
+
+	//Cap 2 - Aula 7
+	m := "Oi bebe\ncomo vai você?\tespero \"que\" tudo bem!"
+	fmt.Println(m)
+
+	//Cap 2 - Aula 7
+	n := `oidomsmskcs
+	
+	wwndkwndknwdknwdknwkdnwkdnwkd
+	dknwkndkwndkndknwkw
+	
+	`
+	fmt.Println(n)
+
+	//Cap 2 - Aula 7
+	o := "Aqui e está chovendo"
+	p := "Aqui está relampiano"
+	q := fmt.Sprint(o, " ", p)
+	fmt.Println(q)
 }
 
 //Cap 2 - Aula 4
