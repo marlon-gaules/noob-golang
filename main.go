@@ -4,7 +4,8 @@ import (
 	"fmt"
 )
 
-var b = "olá e bom dia!" //Cap 2 - Aula 3
+//Cap 2 - Aula 3
+var b = "olá e bom dia!"
 
 //Cap 2 - Aula 5
 var f int = 15
