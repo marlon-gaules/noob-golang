@@ -18,6 +18,12 @@ var j float64
 var k string
 var l bool
 
+//Cap 2 - Aula 8
+type hotdog int
+
+//Cap 2 - Aula 8
+var r hotdog
+
 func main() {
 	//Cap 2 - Aula 1 e 2
 	numerodebytes, erros := fmt.Println("Hello World!", "Oi galera", 500)
@@ -80,10 +86,15 @@ func main() {
 	fmt.Println(n)
 
 	//Cap 2 - Aula 7
-	o := "Aqui e está chovendo"
+	o := "Aqui está chovendo"
 	p := "Aqui está relampiano"
 	q := fmt.Sprint(o, " ", p)
 	fmt.Println(q)
+
+	//Cap 2 - Aula 8
+	s := 10
+	fmt.Printf("%T\n", r)
+	fmt.Printf("%T\n", s)
 }
 
 //Cap 2 - Aula 4
