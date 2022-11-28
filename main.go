@@ -24,6 +24,9 @@ type hotdog int
 //Cap 2 - Aula 8
 var r hotdog
 
+//Cap 2 - Aula 9
+var t hotdog = 101
+
 func main() {
 	//Cap 2 - Aula 1 e 2
 	numerodebytes, erros := fmt.Println("Hello World!", "Oi galera", 500)
@@ -95,6 +98,10 @@ func main() {
 	s := 10
 	fmt.Printf("%T\n", r)
 	fmt.Printf("%T\n", s)
+
+	//Cap 2 - Aula 9
+	s = int(t)
+	fmt.Printf("%v\n", s)
 }
 
 //Cap 2 - Aula 4
