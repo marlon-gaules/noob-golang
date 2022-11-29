@@ -2,10 +2,10 @@ package main
 
 import "fmt"
 
-//	Nível 1 - 2
-var a int
-var b string
-var c bool
+//	Nível 1 - 2 e 1 - 3
+var a int = 42
+var b string = "James Bond"
+var c bool = true
 
 func main() {
 	//	Cap. 3 – Exercícios
@@ -39,5 +39,18 @@ func main() {
 	fmt.Printf("%v\n", a)
 	fmt.Printf("%v\n", b)
 	fmt.Printf("%v\n", c)
+
+	//	Nível 1 - 3
+	//	Utilizando a solução do exercício anterior:
+	//  Em package-level scope, atribua os seguintes valores às variáveis:
+	//  	1. para "a" atribua 42
+	//      2. para "b" atribua "James Bond"
+	//      3. para "c" atribua true
+	//  Na função main:
+	//      1. Use fmt.Sprintf para atribuir todos esses valores a uma única variável.
+	//		Faça essa atribuição de tipo string a uma variável de nome "s" utilizando o operador curto de declaração.
+	//      2. Demonstre a variável "s".
+	s := fmt.Sprintf("%v\t%v\t%v", a, b, c)
+	fmt.Println(s)
 
 }
