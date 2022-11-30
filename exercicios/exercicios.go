@@ -13,6 +13,9 @@ type ninjaGolang int
 //	Nível 1 - 4
 var d ninjaGolang
 
+//	Nível 1 - 5
+var e int
+
 func main() {
 	//	Cap. 3 – Exercícios
 	//	Nível 1 - 1
@@ -73,4 +76,21 @@ func main() {
 	d = 42
 	fmt.Println(d)
 
+	//	Nível 1 - 5
+	//	Utilizando a solução do exercício anterior:
+	//  Em package-level scope, utilizando a palavra-chave var, crie uma variável com o identificador "e".
+	//	O tipo desta variável deve ser o tipo subjacente do tipo que você criou no exercício anterior.
+	//  Na função main:
+	//  	1. Isto já deve estar feito:
+	//    		1. Demonstre o valor da variável "d"
+	//          2. Demonstre o tipo da variável "d"
+	//          3. Atribua 42 à variável "d" utilizando o operador "="
+	//          4. Demonstre o valor da variável "d"
+	//      2. Agora faça tambem:
+	//          1. Utilize conversão para transformar o tipo do valor da variável "d" em seu tipo subjacente e, utilizando o operador "=", atribua o valor de "d" a "e"
+	//         	2. Demonstre o valor de "e"
+	//          3. Demonstre o tipo de "e"
+	e = int(d)
+	fmt.Println(e)
+	fmt.Printf("%T\n", e)
 }
