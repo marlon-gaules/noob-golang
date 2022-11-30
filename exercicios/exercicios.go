@@ -7,6 +7,12 @@ var a int = 42
 var b string = "James Bond"
 var c bool = true
 
+//	Nível 1 - 4
+type ninjaGolang int
+
+//	Nível 1 - 4
+var d ninjaGolang
+
 func main() {
 	//	Cap. 3 – Exercícios
 	//	Nível 1 - 1
@@ -52,5 +58,19 @@ func main() {
 	//      2. Demonstre a variável "s".
 	s := fmt.Sprintf("%v\t%v\t%v", a, b, c)
 	fmt.Println(s)
+
+	//	Nível 1 - 4
+	//  Crie um tipo. O tipo subjacente deve ser int.
+	// 	Crie uma variável para este tipo, com o identificador "d", utilizando a palavra-chave var.
+	//	Na função main:
+	//    1. Demonstre o valor da variável "d"
+	//    2. Demonstre o tipo da variável "d"
+	//    3. Atribua 42 à variável "d" utilizando o operador "="
+	//    4. Demonstre o valor da variável "d"
+	// Para os aventureiros: https://golang.org/ref/spec#Types
+	fmt.Println(d)
+	fmt.Printf("%T\n", d)
+	d = 42
+	fmt.Println(d)
 
 }
