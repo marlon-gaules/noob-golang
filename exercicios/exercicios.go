@@ -66,10 +66,10 @@ func main() {
 	//  Crie um tipo. O tipo subjacente deve ser int.
 	// 	Crie uma variável para este tipo, com o identificador "d", utilizando a palavra-chave var.
 	//	Na função main:
-	//    1. Demonstre o valor da variável "d"
-	//    2. Demonstre o tipo da variável "d"
-	//    3. Atribua 42 à variável "d" utilizando o operador "="
-	//    4. Demonstre o valor da variável "d"
+	//  	1. Demonstre o valor da variável "d"
+	//   	2. Demonstre o tipo da variável "d"
+	//   	3. Atribua 42 à variável "d" utilizando o operador "="
+	//   	4. Demonstre o valor da variável "d"
 	// Para os aventureiros: https://golang.org/ref/spec#Types
 	fmt.Println(d)
 	fmt.Printf("%T\n", d)
