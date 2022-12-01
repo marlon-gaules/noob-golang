@@ -166,6 +166,10 @@ func main() {
 	for _, nn := range mm {
 		fmt.Printf("%v - %T - %#U - %#x\n", nn, nn, nn, nn)
 	}
+
+	//Cap 4 - Aula 6
+	oo := 100
+	fmt.Printf("%d, %b, %#x\n", oo, oo, oo)
 }
 
 //########################################################
