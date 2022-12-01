@@ -145,6 +145,15 @@ func main() {
 	//Cap 4 - Aula 3
 	fmt.Println(runtime.GOOS)
 	fmt.Println(runtime.GOARCH)
+
+	//Cap 4 - Aula 4
+	var kk uint16
+	kk = 65535
+	fmt.Println(kk) //retorna o limete máximo
+	kk++
+	fmt.Println(kk) //retorna 0 pois volta
+	kk++
+	fmt.Println(kk) //vai para 1. Dependendo do que estou fazendo fazendo isso é um problema, pois é uma conta errada e pode dar pau
 }
 
 //########################################################
