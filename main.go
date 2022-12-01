@@ -154,6 +154,18 @@ func main() {
 	fmt.Println(kk)
 	kk++
 	fmt.Println(kk)
+
+	//Cap 4 - Aula 5
+	ll := "Hello, Playground"
+	mm := []byte(ll)
+	fmt.Println(ll)
+	fmt.Printf("%v, %T\n", ll, ll)
+	fmt.Printf("%v, %T\n", mm, mm)
+
+	//Cap 4 - Aula 5
+	for _, nn := range mm {
+		fmt.Printf("%v - %T - %#U - %#x\n", nn, nn, nn, nn)
+	}
 }
 
 //########################################################
