@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"runtime"
 )
 
 //########################################################
@@ -130,8 +131,25 @@ func main() {
 	fmt.Println(bb)
 	fmt.Println(cc)
 	fmt.Println(dd)
+
+	//Cap 4 - Aula 3
+	ee := "e"
+	ff := "é"
+	gg := "u9999"
+	fmt.Printf("%v, %v, %v\n", ee, ff, gg)
+	hh := []byte(ee)
+	ii := []byte(ff)
+	jj := []byte(gg)
+	fmt.Printf("%v, %v, %v\n", hh, ii, jj)
+
+	//Cap 4 - Aula 3
+	fmt.Println(runtime.GOOS)
+	fmt.Println(runtime.GOARCH)
 }
 
+//########################################################
+//###################  CAP. 2  ###########################
+//########################################################
 //Cap 2 - Aula 4
 func qualquercoisa(x int) {
 	fmt.Println(b)
