@@ -37,6 +37,21 @@ var t hotdog = 101
 //Cap 4 - Aula 1
 var aa bool
 
+//Cap 4 - Aula 7
+const pp = 10
+
+//Cap 4 - Aula 7
+const (
+	ss = 10
+	tt = 110
+	uu = "Oi, seja bem vindo!"
+)
+
+//Cap 4 - Aula 7
+var qq int
+var rr float64
+var vv string
+
 func main() {
 
 	//########################################################
@@ -170,6 +185,18 @@ func main() {
 	//Cap 4 - Aula 6
 	oo := 100
 	fmt.Printf("%d, %b, %#x\n", oo, oo, oo)
+
+	//Cap 4 - Aula 7
+	qq = pp
+	fmt.Printf("%v, %T\n", qq, qq)
+
+	//Cap 4 - Aula 7
+	rr = pp
+	fmt.Printf("%v, %T\n", rr, rr)
+
+	//Cap 4 - Aula 7
+	vv = uu
+	fmt.Printf("%v, %T\n", vv, vv)
 }
 
 //########################################################
