@@ -227,6 +227,13 @@ func main() {
 	fmt.Println(zz, aaa, bbb)
 	fmt.Println(ccc, ddd, eee, fff)
 
+	//Cap 4 - Aula 9
+	ggg := 1
+	hhh := ggg << 2
+	iii := ggg >> 1
+	fmt.Printf("%b\n", ggg)
+	fmt.Printf("%b\n", hhh)
+	fmt.Printf("%b\n", iii)
 }
 
 //########################################################
