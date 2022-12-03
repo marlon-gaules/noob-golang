@@ -52,6 +52,30 @@ var qq int
 var rr float64
 var vv string
 
+//Cap 4 - Aula 8
+const (
+	ww = iota
+	_  = iota
+	xx = iota
+	_  = iota
+	yy = iota
+)
+
+//Cap 4 - Aula 8
+const (
+	zz  = iota
+	aaa = iota
+	bbb = iota * 5
+)
+
+//Cap 4 - Aula 8
+const (
+	ccc = iota + 100
+	ddd
+	eee
+	fff
+)
+
 func main() {
 
 	//########################################################
@@ -197,6 +221,12 @@ func main() {
 	//Cap 4 - Aula 7
 	vv = uu
 	fmt.Printf("%v, %T\n", vv, vv)
+
+	//Cap 4 - Aula 8
+	fmt.Println(ww, xx, yy)
+	fmt.Println(zz, aaa, bbb)
+	fmt.Println(ccc, ddd, eee, fff)
+
 }
 
 //########################################################
