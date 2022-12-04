@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+//########################################################
+//################# CAP. 3 - Exercícios ##################
+//########################################################
 //	Nível 1 - 2 e 1 - 3
 var a int = 42
 var b string = "James Bond"
@@ -17,6 +20,9 @@ var d ninjaGolang
 var e int
 
 func main() {
+	//########################################################
+	//################# CAP. 3 - Exercícios ##################
+	//########################################################
 	//	Cap. 3 – Exercícios
 	//	Nível 1 - 1
 	//	Utilizando o operador curto de declaração, atribua estes valores às variáveis com os identificadores "x", "y", e "z".
@@ -93,4 +99,12 @@ func main() {
 	e = int(d)
 	fmt.Println(e)
 	fmt.Printf("%T\n", e)
+
+	//########################################################
+	//################# CAP. 5 - Exercícios ##################
+	//########################################################
+	//	Nível 2 - 1
+	//	Escreva um programa que mostre um número em decimal, binário, e hexadecimal
+	f := 101
+	fmt.Printf("%d, %b, %#x\n", f, f, f)
 }
