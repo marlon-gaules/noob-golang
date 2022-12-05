@@ -19,6 +19,17 @@ var d ninjaGolang
 //	Nível 1 - 5
 var e int
 
+//########################################################
+//################# CAP. 5 - Exercícios ##################
+//########################################################
+//	Nível 2 - 3
+const (
+	m string  = "Hello world"     //tipada
+	n float64 = 6.54              //tipada
+	o         = "Bom dia galera!" //não tipada
+	p         = 5                 //não tipada
+)
+
 func main() {
 	//########################################################
 	//################# CAP. 3 - Exercícios ##################
@@ -41,9 +52,9 @@ func main() {
 	fmt.Println(z)
 
 	//	Nível 1 - 2
-	//	Use var para declarar três variáveis.
-	//	Elas devem ter package-level scope.
-	//	Não atribua valores a estas variáveis.
+	//	Use var para declarar três variáveis
+	//	Elas devem ter package-level scope
+	//	Não atribua valores a estas variáveis
 	//	Utilize os seguintes identificadores e tipos para estas variáveis:
 	//		1. Identificador "a" deverá ter tipo int
 	//		2. Identificador "b" deverá ter tipo string
@@ -124,4 +135,12 @@ func main() {
 	k := 55 >= 55
 	l := 65 > 63
 	fmt.Printf("%v\n%v\n%v\n%v\n%v\n%v\n", g, h, i, j, k, l)
+
+	//	Nível 2 - 3
+	//	Crie constantes tipadas e não-tipadas
+	//	Demonstre seus valores
+	fmt.Printf("%v\n", m)
+	fmt.Printf("%v\n", n)
+	fmt.Printf("%v\n", o)
+	fmt.Printf("%v\n", p)
 }
