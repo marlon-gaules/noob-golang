@@ -107,4 +107,21 @@ func main() {
 	//	Escreva um programa que mostre um número em decimal, binário, e hexadecimal
 	f := 101
 	fmt.Printf("%d, %b, %#x\n", f, f, f)
+
+	//	Nível 2 - 2
+	//	Escreva expressões utilizando os operadores, e atribua seus valores a variáveis
+	//	==
+	//	=/
+	//	<=
+	//	<
+	//	>=
+	//	>
+	//	Demonstre estes valores
+	g := 5 == 10
+	h := 21 != 21
+	i := 3 <= 5
+	j := 100 < 99
+	k := 55 >= 55
+	l := 65 > 63
+	fmt.Printf("%v\n%v\n%v\n%v\n%v\n%v\n", g, h, i, j, k, l)
 }
