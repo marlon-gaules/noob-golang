@@ -144,6 +144,7 @@ func main() {
 	fmt.Printf("%v\n", o)
 	fmt.Printf("%v\n", p)
 
+	//	Nível 2 - 4
 	//	Crie um programa que:
     //	Atribua um valor int a uma variável
     //	Demonstre este valor em decimal, binário e hexadecimal
