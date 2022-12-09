@@ -143,4 +143,14 @@ func main() {
 	fmt.Printf("%v\n", n)
 	fmt.Printf("%v\n", o)
 	fmt.Printf("%v\n", p)
+
+	//	Crie um programa que:
+    //	Atribua um valor int a uma variável
+    //	Demonstre este valor em decimal, binário e hexadecimal
+    //	Desloque os bits dessa variável 1 para a esquerda, e atribua o resultado a outra variável
+    //	Demonstre esta outra variável em decimal, binário e hexadecimal
+	m := 200
+	fmt.Printf("%d, %b, %#x\n", m, m, m)
+	n := m << 1
+	fmt.Printf("%d, %b, %#x\n", n, n, n)
 }
